@@ -18,7 +18,16 @@ function setup(){
 function draw() {
     background(0);
     orbitControl();
-    translate(0,150);
-    model(porky);
 
+    push();
+    translate(0,150);
+    rotateWithFrameCount();
+    model(porky);
+    pop();
+}
+
+function rotateWithFrameCount() {
+//   rotateZ(.02*frameCount);
+//   rotateX(.02*frameCount);
+  rotateY(.02*frameCount);
 }
