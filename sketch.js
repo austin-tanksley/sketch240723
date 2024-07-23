@@ -21,5 +21,4 @@ function draw() {
     translate(0,150);
     model(porky);
 
-
 }
