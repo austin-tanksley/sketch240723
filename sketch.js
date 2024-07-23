@@ -20,11 +20,11 @@ function draw() {
     orbitControl();
     
     ambientLight(10, 0, 10,2);
-    let c = color(251, 255, 255);
-    directionalLight(c, 0, 1, 0);
+    let c = color(251, 220, 255);
+    directionalLight(c, 1, 0, 0);
 
     c = color(255, 32, 110);
-    directionalLight(c, 0, -1, 0);
+    directionalLight(c, -1, 0, 0);
     noStroke();
     
     push();
