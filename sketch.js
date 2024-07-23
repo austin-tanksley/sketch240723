@@ -13,6 +13,7 @@ function preload() {
 function setup(){
     createCanvas(1920,800, WEBGL);
     normalMaterial();
+    frameRate(60);
 }
 
 function draw() {
