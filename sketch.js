@@ -22,13 +22,7 @@ function draw() {
 
     push();
     translate(0,150);
-    rotateWithFrameCount();
+    rotateY(.02*frameCount); 
     model(porky);
     pop();
-}
-
-function rotateWithFrameCount() {
-//   rotateZ(.02*frameCount);
-//   rotateX(.02*frameCount);
-  rotateY(.02*frameCount);
 }
