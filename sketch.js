@@ -18,7 +18,7 @@ function preload() {
 }
 
 function setup(){
-    createCanvas(windowWidth,800, WEBGL);
+    createCanvas(windowWidth-10,windowHeight-10, WEBGL);
     frameRate(60);
       if (!loaded){
         fill(220);
@@ -26,7 +26,7 @@ function setup(){
         textAlign(CENTER, CENTER);
         textSize(24);
         textStyle(BOLD)
-        text("this could be some sweet graphics loading lots of bits.",0 , 0);
+        text("more loading..",0 , 0);
     }
 }
 
