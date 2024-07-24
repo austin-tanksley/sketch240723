@@ -50,7 +50,9 @@ function draw() {
   
     push();
     translate(0,150);
-    rotateY(.02*frameCount); 
+    specularMaterial(100);
+    shininess(3);
+    rotateY(.02*frameCount);
     model(porky);
     pop();
 
