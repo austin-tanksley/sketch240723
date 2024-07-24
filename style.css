@@ -10,3 +10,6 @@ body{
     align-items: center;
     background-color: #000;
 }
+.loadingclass {
+    color: #f1f1f1;
+}
